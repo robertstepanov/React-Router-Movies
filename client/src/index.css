@@ -5,6 +5,19 @@ body {
   background-color: #f2f2f2;
 }
 
+.nav-links {
+  text-align: center;
+}
+.nav-links a {
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
+.nav-links a.active {
+  color: #1c5d76;
+  font-weight: bold;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
